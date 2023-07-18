@@ -56,10 +56,9 @@ body {
 .footer {
   background-color: #41596e;
   font-family: sans-serif;
-  font-size: 12px;
+  font-size: 10px;
   color: #fff;
   text-decoration: none;
-  padding: 5px;
   text-align: center;
   position: fixed;
   bottom: 0;
@@ -73,6 +72,10 @@ body {
   text-decoration: none;
   color: #fff;
 
+
+}
+.footer p {
+  margin: 2px;
 }
 
 
