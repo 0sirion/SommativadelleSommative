@@ -178,8 +178,8 @@ function desktopLoader() {
 
 
     const detailsLink = document.createElement('a');
+    detailsLink.classList.add("detailsLink")
     detailsLink.href = "./details.html";
-    deta
     detailsLink.textContent = "vedi dettagli";
     detailsLink.addEventListener('click', () => {
       localStorage.setItem('selectedDesktop', JSON.stringify(desktop));
