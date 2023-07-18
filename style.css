@@ -128,11 +128,13 @@ body {
 }
 
 #detailsImage {
-  max-width: 500px;
+  width: 500px;
+  border-radius: 45px;
 }
 
 #detailsTitle {
   color: red;
+  font-family: sans-serif;
 }
 
 
