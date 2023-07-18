@@ -4,27 +4,29 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="./style.css" />
-  <title>Document</title>
+  <title>Dettagli</title>
 </head>
-
-<body>
+<body onload="detailsLoader()">
   <header>
     <nav class="Navbar">
       <ul class="NavLinks">
         <a href="./index.html">Home</a>
         <a href="./PcDesktop.html">Computer Fissi</a>
         <a href="./Smartphones.html">Smartphones</a>
-        <a href="./Cart.html" class="Cart">Cart</a>
+        <a href="./Cart.html" class="Cart">Carrello</a>
       </ul>
     </nav>
   </header>
 
-  <section>
-    <article class="Benvenuto">
-      <h1>Benvenuto nel nostro negozio!</h1>
-      <p>Nelle sezioni potrai trovare le nostre migliori offerte!</p>
-    </article>
-  </section>
+  <div class="detailsContainer">
+    <img id="detailsImage" src="" alt="Immagine del computer">
+    <h2 id="detailsTitle"></h2>
+    <p id="detailsPrice"></p>
+    <p id="detailsMarcaProcessore"></p>
+    <p id="detailsMarcaSchedaMadre"></p>
+    <p id="detailsQuantitaRAM"></p>
+    <p id="detailsQuantitaStorage"></p>
+  </div>
 
   <footer>
     <div class="footer">
@@ -33,8 +35,7 @@
       </h4>
       <p>⚲ 123 Main Street, Cityville</p>
       <p>☎ +1 555-1234-5678</p>
-      <a  href="mailto:negozioinfo@gmail.com"
-              >✉ negozio@mail.com</a>
+      <a href="mailto:negozioinfo@gmail.com">✉ negozio@mail.com</a>
       <p>Shop License: ABC123XYZ</p>
     </div>
   </footer>
